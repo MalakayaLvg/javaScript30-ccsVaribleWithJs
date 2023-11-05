@@ -1,0 +1,26 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+
+}
+:root{
+    --baseColor: #08ff00;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+img{
+    padding: var(--spacing);
+    filter: blur(var(--blur));
+    background-color: var(--baseColor);
+}
+
+.hl{
+    color: var(--baseColor);
+}
+
+
